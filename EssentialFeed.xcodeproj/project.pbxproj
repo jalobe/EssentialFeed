@@ -14,6 +14,7 @@
 		3E50688628E9C09F00B6F500 /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E50688528E9C09F00B6F500 /* FeedLoader.swift */; };
 		3E50688A28EA02EC00B6F500 /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E50688928EA02EC00B6F500 /* RemoteFeedLoader.swift */; };
 		3EACFA5A290C26C200762283 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EACFA59290C26C200762283 /* HTTPClient.swift */; };
+		3EACFA5C290C270E00762283 /* FeedItemsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EACFA5B290C270E00762283 /* FeedItemsMapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		3E50688528E9C09F00B6F500 /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 		3E50688928EA02EC00B6F500 /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
 		3EACFA59290C26C200762283 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		3EACFA5B290C270E00762283 /* FeedItemsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemsMapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			children = (
 				3E50688928EA02EC00B6F500 /* RemoteFeedLoader.swift */,
 				3EACFA59290C26C200762283 /* HTTPClient.swift */,
+				3EACFA5B290C270E00762283 /* FeedItemsMapper.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EACFA5C290C270E00762283 /* FeedItemsMapper.swift in Sources */,
 				3E50688628E9C09F00B6F500 /* FeedLoader.swift in Sources */,
 				3E50688A28EA02EC00B6F500 /* RemoteFeedLoader.swift in Sources */,
 				3EACFA5A290C26C200762283 /* HTTPClient.swift in Sources */,
