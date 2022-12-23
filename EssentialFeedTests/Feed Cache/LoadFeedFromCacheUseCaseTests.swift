@@ -74,7 +74,7 @@ final class LoadFeedFromCacheUseCaseTests: XCTestCase {
         }
     }
     
-    func test_load_doesNotDeleteCacheOnEmtpyCache() {
+    func test_load_hasNoSideEffectsOnEmtpyCache() {
         let (sut, store) = makeSUT()
         
         sut.load { _ in }
