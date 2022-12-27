@@ -13,5 +13,9 @@ public enum HTTPClientResult {
 }
 
 public protocol HTTPClient {
+    /// Fetch a url using HTTP and the GET method.
+    /// - Parameters:
+    ///   - url: The url to fetch
+    ///   - completion: The completion handler can be invoked in any thread. Clients are responsible to dispatch appropriate threads, if needed.
     func get(from url: URL, completion: @escaping (HTTPClientResult) -> Void)
 }
