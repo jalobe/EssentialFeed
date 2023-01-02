@@ -31,6 +31,7 @@
 		3E43935F29633449005E12E1 /* CoreDataFeedStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E43935E29633449005E12E1 /* CoreDataFeedStoreTests.swift */; };
 		3E439361296334A0005E12E1 /* CoreDataFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E439360296334A0005E12E1 /* CoreDataFeedStore.swift */; };
 		3E43936429633806005E12E1 /* FeedStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E43936229633806005E12E1 /* FeedStore.xcdatamodeld */; };
+		3E43936929634F6F005E12E1 /* CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E43936829634F6F005E12E1 /* CoreDataHelpers.swift */; };
 		3E50687428E9BC9000B6F500 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E50686B28E9BC8E00B6F500 /* EssentialFeed.framework */; };
 		3E50687928E9BC9000B6F500 /* LoadFeedFromRemoteUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E50687828E9BC9000B6F500 /* LoadFeedFromRemoteUseCaseTests.swift */; };
 		3E50687A28E9BC9000B6F500 /* EssentialFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E50686E28E9BC8E00B6F500 /* EssentialFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -86,6 +87,7 @@
 		3E43935E29633449005E12E1 /* CoreDataFeedStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFeedStoreTests.swift; sourceTree = "<group>"; };
 		3E439360296334A0005E12E1 /* CoreDataFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFeedStore.swift; sourceTree = "<group>"; };
 		3E43936329633806005E12E1 /* FeedStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FeedStore.xcdatamodel; sourceTree = "<group>"; };
+		3E43936829634F6F005E12E1 /* CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelpers.swift; sourceTree = "<group>"; };
 		3E50686B28E9BC8E00B6F500 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E50686E28E9BC8E00B6F500 /* EssentialFeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EssentialFeed.h; sourceTree = "<group>"; };
 		3E50687328E9BC9000B6F500 /* EssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -195,6 +197,7 @@
 			children = (
 				3E439360296334A0005E12E1 /* CoreDataFeedStore.swift */,
 				3E43936229633806005E12E1 /* FeedStore.xcdatamodeld */,
+				3E43936829634F6F005E12E1 /* CoreDataHelpers.swift */,
 			);
 			path = "Core Data";
 			sourceTree = "<group>";
@@ -435,6 +438,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E43936929634F6F005E12E1 /* CoreDataHelpers.swift in Sources */,
 				3EACFA5C290C270E00762283 /* FeedItemsMapper.swift in Sources */,
 				3E50688628E9C09F00B6F500 /* FeedLoader.swift in Sources */,
 				3E2FDA71292D80780026B598 /* RemoteFeedItem.swift in Sources */,
